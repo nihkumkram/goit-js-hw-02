@@ -1,5 +1,5 @@
 function getShippingCost(country) {
-  const price = null
+  let price = null
   switch (country) {
     case `China`:
       price = 100;
